@@ -21,6 +21,10 @@ class Person
   def hygiene= (change_hygiene)
     @hygiene = [[change_hygiene, @@minimum].max, @@maximum].min
   end 
+  
+  def happy?
+    @happiness > 7 
+  end 
     
     
 end 
