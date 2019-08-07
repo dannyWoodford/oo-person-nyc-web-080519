@@ -1,4 +1,4 @@
-# your code goes here
+require 'pry'
 class Person
   
   attr_reader :name, :happiness, :hygiene
@@ -40,6 +40,7 @@ class Person
       #@hygiene +=4
       self.hygiene +=4
       "♪ Rub-a-dub just relaxing in the tub ♫"
+      binding.pry
     end 
     
     
