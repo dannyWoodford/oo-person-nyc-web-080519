@@ -1,7 +1,7 @@
 # your code goes here
 class Person
   
-  attr_reader :name, :happiness 
+  attr_reader :name, :happiness, :hygiene
   attr_accessor :bank_account 
   
   @@maximum = 10
