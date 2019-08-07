@@ -53,7 +53,7 @@ class Person
         "Hi #{a_person.name}! It's #{self.name}. How are you?"
       end 
       
-      def start_converstaion
+      def start_conversation(a_person, topic)
         
       end
       
