@@ -1,7 +1,7 @@
 # your code goes here
 class Person
   
-  attr_ :name 
+  attr_reader :name 
   
   def initialize(name)
     @name = name 
