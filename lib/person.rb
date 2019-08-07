@@ -37,11 +37,12 @@ class Person
     end
     
     def take_bath 
-      
       self.hygiene +=4
       "♪ Rub-a-dub just relaxing in the tub ♫"
-      #binding.pry
     end 
     
+    def work_out 
+      self.hygiene -= 3
+    end
     
 end 
