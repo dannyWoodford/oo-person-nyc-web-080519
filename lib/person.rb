@@ -30,6 +30,8 @@ class Person
     def clean?
       @hygiene > 7
     end
+    
+    def get_paid(salary)
   
     
     
