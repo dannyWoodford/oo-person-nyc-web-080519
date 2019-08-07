@@ -17,6 +17,10 @@ class Person
   def happiness= (change_happiness)
     @happiness = [[change_happiness, @@minimum].max, @@maximum].min
   end 
+  
+  def hygiene= (change_hygiene)
+    @hygiene = [[change_hygiene, @@minimum].max, @@maximum].min
+  end 
     
     
 end 
