@@ -62,6 +62,8 @@ class Person
           self.happiness += 1 
           a_person.happiness += 1
           "blah blah sun blah rain"
+        else 
+          
         end
       end
       
