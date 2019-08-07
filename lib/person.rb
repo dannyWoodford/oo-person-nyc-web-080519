@@ -5,6 +5,7 @@ class Person
   attr_accessor :bank_account 
   
   @@maximum = 10
+  @@minimum = 0
   
   def initialize(name)
     @name = name 
@@ -13,7 +14,7 @@ class Person
   end 
   
   def happiness= (change_happiness)
-    @happiness
+    @happiness = [[change_happiness, @@minimum].max, @@maximum].min
   end 
     
     
