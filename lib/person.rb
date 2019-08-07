@@ -58,6 +58,8 @@ class Person
           self.happiness -= 2
           a_person.happiness -=2
           "blah blah partisan blah lobbyist"
+        elsif topic == "weather"
+          "blah blah sun blah rain"
         end
       end
       
