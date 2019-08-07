@@ -31,22 +31,24 @@ class Person
       @hygiene > 7
     end
     
-    def get_paid(salary)
-      @bank_account += salary
-      "all about the benjamins"
-    end
+      def get_paid(salary)
+        @bank_account += salary
+        "all about the benjamins"
+      end
     
-    def take_bath 
-      self.hygiene +=4
-      "♪ Rub-a-dub just relaxing in the tub ♫"
-    end 
+      def take_bath 
+        self.hygiene +=4
+        "♪ Rub-a-dub just relaxing in the tub ♫"
+      end 
     
-    def work_out 
-      self.hygiene -= 3
-      self.happiness += 2
-      "♪ another one bites the dust ♫"
-    end
-    
-    
+      def work_out 
+        self.hygiene -= 3
+        self.happiness += 2
+        "♪ another one bites the dust ♫"
+      end
+      
+      def call_friend(a_person)
+        self.a_person.happiness +=3
+      end 
     
 end 
