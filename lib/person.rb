@@ -22,9 +22,15 @@ class Person
     @hygiene = [[change_hygiene, @@minimum].max, @@maximum].min
   end 
   
-  def happy?
-    @happiness > 7 
-  end 
+    def happy?
+      @happiness > 7 
+    end
+    
+    
+    def clean?
+      @hygiene > 7
+    end
+  
     
     
 end 
