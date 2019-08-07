@@ -55,7 +55,7 @@ class Person
       
       def start_conversation(a_person, topic)
         if topic == "politics"
-          
+          "blah blah partisan blah lobbyist"
         end
       end
       
